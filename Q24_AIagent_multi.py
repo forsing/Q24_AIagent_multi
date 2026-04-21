@@ -76,7 +76,7 @@ except ImportError:
 # =========================
 # Konfiguracija
 # =========================
-CSV_PATH = Path("/Users/4c/Desktop/GHQ/data/loto7hh_4600_k31.csv")
+CSV_PATH = Path("/data/loto7hh_4600_k31.csv")
 N_NUMBERS = 7
 N_MAX = 39
 
@@ -427,7 +427,7 @@ BEST hparam: nq= 6 | K (recent/old split): 2000 | cos(bias, freq_csv): 0.424073
   Tool C COLD       cos=0.828120  NEXT=(4, 7, 9, 12, 19, 22, 25)
   Tool D COND/TOP1  cos=0.295196  NEXT=(4, 7, 9, 14, 17, 19, 22)
 --- glavna predikcija (QMTA multi-tool dispatch) ---
-predikcija NEXT: (7, 9, 12, 14, 17, 19, 22)
+predikcija NEXT: (7, 9, x, y, z, 19, 22)
 """
 
 
